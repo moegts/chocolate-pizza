@@ -1,0 +1,47 @@
+
+body{
+    width: 963px;
+    margin: auto;
+    
+}
+#logoSmall{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#printDiv{
+    float: right;
+}
+#printIt{
+    display: inline;
+}
+#imgHeaderRepeat{
+    display: block;
+}
+
+main h3{
+    display: inline;
+}
+.pAboutVan{
+    display: inline;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.button1 {background-color: #BC7058;};
+body{
+    float: c;
+}
+
+
+
+

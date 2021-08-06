@@ -1,9 +1,60 @@
 
+* {
+    box-sizing: border-box;
+}
 body{
+    height: 1000px;
     width: 963px;
     margin: auto;
-    
+    font-family: 'Roboto Condensed', sans-serif;
 }
+h5{
+    font-weight: 500;
+}
+h1 {
+    -webkit-text-stroke: 0.5px black;
+  }
+#sectionP{
+    font-size: 21.6px;
+}
+#sectionVan{
+    position: relative;
+    bottom: 195px;
+}
+#horzLine{
+    padding-top: 0px;
+}
+
+#imgNote{
+    position: relative;
+    top: 10px;
+    left: 31px;
+    z-index: -1;
+    transform: scale(1.07);
+}
+#imgNote2{
+    position: relative;
+    top: -733px;
+    left: 31px;
+    transform: scale(1.07);
+    opacity: 0.0;
+}
+
+#divLogoImg{
+    margin-bottom: 8px;
+}
+#divTextImg{
+    margin-top: 37px;
+
+}
+#divHeader{
+    display: inline;
+}
+#navHeader{
+    float: right;
+    margin-top: 40px;
+}
+
 #logoSmall{
       display: block;
   margin-left: auto;
@@ -11,25 +62,43 @@ body{
 }
 #printDiv{
     float: right;
+    position: relative;
+    top: -28px;
+    color: #a8a8a8;
 }
 #printIt{
     display: inline;
 }
+
 #imgHeaderRepeat{
     display: block;
+    margin-bottom: 40px;
+}
+
+#imgHeaderRepeat1{
 }
 
 main h3{
+    margin-bottom: 50px;
     display: inline;
 }
 .pAboutVan{
-    display: inline;
+    position: relative;
+    top: -17px;
+    left: 80px;
+    font-size: 23px;
+}
+
+#h3Vanessa{
+    position: relative;
+    top: -25px;
+    left: 12px;
 }
 
 .button {
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 18px 28px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -37,11 +106,54 @@ main h3{
     margin: 4px 2px;
     cursor: pointer;
   }
-.button1 {background-color: #BC7058;};
+.button1 {
+    background-color: #BC7058;
+    position: relative;
+    top: -105px;
+    left: 778px;
+    z-index: -1;
+}
+
+};
 body{
     float: c;
 }
+#div1{
+    position: relative;
+    margin: auto;
+    left: 233px;
+    bottom: 109.8px;
 
+}
+#div2{
+    position: relative;
+    margin: auto;
+    left: 457px;
+    bottom: 230px;
+}
+.scaled {
+    transform: scale(1.68); /* Equal to scaleX(0.7) scaleY(0.7) */
 
+}
 
-
+.vanPic{
+    position: relative;
+    top: 25px;
+}
+#pAboutVan{
+    position: relative;
+    top: -17px;
+    left: 8px;
+}
+.pAboutVan1{
+    position: relative;
+    top: -14px;
+    left: 78px;
+    margin-bottom: 5px;
+}
+.pAboutVan2{
+    position: relative;
+    top: -14px;
+    left: 78px;
+    margin-top: 5px;
+}

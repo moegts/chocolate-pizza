@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +14,22 @@
 
 <body>
     <header>
-        <a href="index.html"><img src="./img/logo.png" alt="logoFork"></a>
-        <a href="index.html"><img src="./img/logoBesideText.png" alt="logoText"></a>
-        <nav>
+        <div id="divHeader">
+            <a href="index.html"><img id="divLogoImg" src="./img/logo.png" alt="logoFork"></a>
+            <a href="index.html"><img id="divTextImg" src="./img/logoBesideText.png" alt="logoText"></a>
+        </div>
+
+        <nav id="navHeader">
             <a href="https://www.facebook.com/"><img src="./img/fb-icon.png" alt=""></a>
             <a href="https://twitter.com/"><img src="./img/twit-icon.png" alt=""></a>
             <a href="https://myaccount.google.com/"><img src="./img/gp-icon.png" alt=""></a>
             <a href="https://www.instagram.com/"><img src="./img/insta-icon.png" alt=""></a>
             <a href="https://www.flickr.com/"><img src="./img/flic-icon.png" alt=""></a>
             <a href="https://www.pinterest.com/"><img src="img/pint-icon.png" alt=""></a>
-            <a href="https://rss.com/"><img src="./img/rss-icon.png" alt=""></a>
-            <a href="https://mail.google.com/"><img src="./img/mail-icon.png" alt=""></a>
+            <span style="margin-left: 8px;">
+                <a href="https://rss.com/"><img src="./img/rss-icon.png" alt=""></a>
+                <a href="https://mail.google.com/"><img src="./img/mail-icon.png" alt=""></a>
+            </span>
 
         </nav>
         <img src="./img/hr-img.png" alt="repeat it to get nice line" id="imgHeaderRepeat">
@@ -29,49 +37,135 @@
     </header>
 
     <main>
-        <h1>Chocolate Pizza</h1>
-        <h6>POSTED ON 15 DEC 2013 / DESSERTS</h6>
+        <section style="position: relative; top: 39px; right: -238px; transform: scale(1.5);">
+            <h1>Chocolate Pizza</h1>
+            <h5 style="color: #b8b8b8; position: relative; top: -25px; left: -119px; transform: scale(0.75);">POSTED ON
+                15 DEC 2013 / DESSERTS</h5>
+        </section>
+
         <div id="printDiv">
             <a href="img/PREVIEW.jpg" id="printIt"><img src="./img/print-icon.png" alt="print img"></a>
             <h6 id="printIt">PRINT</h6>
         </div>
         <img src="img/choco-pizza.png" alt="choco pizza">
-        
-        <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the fig-swirl: Melt butter over medium heat in a saucepan. Add
-            brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice.
-            Cook over medium heat, stirring
-            frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool
-            completely.
-        </p>
-        <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ice cream: In a small pot over medium heat, combine milk, and
-            granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg
-            yolks. Set mixture in the fridge and wait
-            until the fig mixture is cooled.
-        </p>
-        <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Using an ice cream machine, pour liquids into the frozen basin and
-            process according to manufacturer
-            instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the
-            nuts. Continue to process for +/-10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware.
-            Freeze for at least two hours before serving.
-        </p>
-        <img src="img/list-bg.png" alt="Chocolate Pizza">
-        <img src="./img/hr-img.png" alt="repeat it to get nice line" id="imgHeaderRepeat">
-        <img src="img/van-pic.png" alt="" class="vanPic">
-        <h3>Vanessa Stevenson</h3>
-        <p class="pAboutVan">
-            Food enthusiast,photography fan. Add a pinch of raw foodism and that's pretty much who I am.
-        </p>
-        <button class="button button1">SHARE RECIPE</button>
-        <hr width="100%" size="1" color="#D3D3D3" style="margin-top: 75px;">
-        <img src="img/small-logo.png" alt="" id="logoSmall">
+
+        <section id="sectionP">
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the fig-swirl: Melt butter over medium heat in a saucepan.
+                Add
+                brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon
+                juice.
+                Cook over medium heat, stirring
+                frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let
+                cool
+                completely.
+            </p>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ice cream: In a small pot over medium heat, combine milk, and
+                granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the
+                egg
+                yolks. Set mixture in the fridge and wait
+                until the fig mixture is cooled.
+            </p>
+            <p style="margin-bottom: 50px;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Using an ice cream machine, pour liquids into the frozen basin
+                and
+                process according to manufacturer
+                instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and
+                the
+                nuts. Continue to process for +/-10 minutes. Pour semi-frozen mixture into a pyrex dish or glass
+                tupperware.
+                Freeze for at least two hours before serving.
+            </p>
+        </section>
+        <img id="imgNote" src="img/list-bg.png" alt="Chocolate Pizza">
+
+        <section class="scaled">
+            <div id="div1">
+                <div>
+                    <input type="checkbox" id="check1" style="transform: scale(0.6); position: relative; top: 3px;" />
+                    <label for="check1">11/2 cups milk</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="check2" style="transform: scale(0.6); position: relative; top: 3px;" />
+                    <label for="check2">1/2 cup mascarpone</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="check3" style="transform: scale(0.6); position: relative; top: 3px;" />
+                    <label for="check3">1/2 tsp pink salt</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="check4" style="transform: scale(0.6); position: relative; top: 3px;" />
+                    <label for="check4">1 lb black mission figs</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="check5" style="transform: scale(0.6); position: relative; top: 3px;" />
+                    <label for="check5">1/2 cup brown sugar</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="check6" style="transform: scale(0.6); position: relative; top: 3px;" />
+                    <label for="check6">2-4 tbsp water</label>
+                </div>
+            </div>
+            <div id="div2">
+                <div>
+                    <input type="checkbox" id="check7" style="transform: scale(0.6); position: relative; top: 3px;" />
+                    <label for="check7">11/2 cups heavy cream</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="check8" style="transform: scale(0.6); position: relative; top: 3px;"
+                        checked />
+                    <label for="check8"><del>1/3 granulated sugar</del></label>
+                </div>
+                <div>
+                    <input type="checkbox" id="check9" style="transform: scale(0.6); position: relative; top: 3px;"
+                        checked />
+                    <label for="check9"><del>2 egg yolks</del></label>
+                </div>
+                <div>
+                    <input type="checkbox" id="check10" style="transform: scale(0.6); position: relative; top: 3px;" />
+                    <label for="check10">1 lemon, juiced</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="check11" style="transform: scale(0.6); position: relative; top: 3px;" />
+                    <label for="check11">2 tbsp butter</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="check12" style="transform: scale(0.6); position: relative; top: 3px;" />
+                    <label for="check12">1 cup hoey roasted peacans, roughly
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chopped</label>
+                </div>
+            </div>
+        </section>
+
+        <section id="sectionVan">
+            <div>
+                <img src="./img/hr-img.png" alt="repeat it to get nice line" id="imgHeaderRepeat1">
+                <img src="img/van-pic.png" alt="" class="vanPic">
+                <h3 id="h3Vanessa">Vanessa Stevenson</h3>
+            </div>
+            <div id="pAboutVan">
+                <p class="pAboutVan1">
+                    Food enthusiast, photography fan. Add a pinch of raw foodism and that's
+                </p>
+                <p class="pAboutVan2"> pretty much who I am.</p>
+                <button class="button button1">SHARE RECIPE</button>
+            </div>
+
+        </section>
+
+
     </main>
 
-    <footer>
-
+    <footer style="position: relative;top: -255px;">
+        <hr width="100%" size="1" color="#D3D3D3" style="margin-top: 75px;">
+        <img src="./img/small-logo.png" alt="" id="logoSmall"
+            style="position: relative;top: -35px; border:10px solid #ffffff;">
+        <h5 style="text-align: center; color: #c4c4c4; margin-bottom: 7px;"> Delicious &copy; 2013 - All Rights Reserved.</h6>
+            <h5 style="text-align: center; color: #c4c4c4;margin-top: 0px;">Proudly puplished with Ghost.</h5>
+            <img id="imgNote2" src="img/list-bg.png" alt="Chocolate Pizza">
     </footer>
+    <script src="./app.js"></script>
 </body>
 
 </html>
